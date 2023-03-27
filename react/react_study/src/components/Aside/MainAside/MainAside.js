@@ -7,6 +7,8 @@ import { GrTest } from 'react-icons/gr';
 import { BsCardChecklist } from 'react-icons/bs';
 import { BiListCheck } from 'react-icons/bi';
 import { FaUsers } from 'react-icons/fa';
+// import { CgCheck } from 'react-icons/cg';
+import { GiChecklist } from 'react-icons/gi';
 import * as S from './style';
 import { useNavigate } from 'react-router-dom';
 
@@ -59,6 +61,11 @@ const MainAside = ( {chlidren} ) => {
                         elemBefore: () => <FaUsers />
                     }
                 ]
+              },
+              {
+                title: 'TodoList',
+                itemId: '/todo',
+                elemBefore: () => <GiChecklist />
               },
             ]}
           />

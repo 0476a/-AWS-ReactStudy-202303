@@ -3,7 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import MainAside from "./components/Aside/MainAside/MainAside";
 import InputSample from "./pages/InputSample/InputSample";
 import UserList from "./pages/UserList/UserList";
+// import TodoList from "./pages/TodoList(PR)/TodoList";
 import { reset } from "./styles/Global/reset";
+import Todo from "./pages/Todo/Todo";
 
 function Test1() {
   return (<h1>test1</h1>);
@@ -27,6 +29,7 @@ function App() {
         <Route path="/t2" Component={Test2}/>
         <Route path="/sample/input/1" Component={InputSample}/>
         <Route path="/users" Component={UserList}/>
+        <Route path="/todo" Component={Todo} />
       </Routes>
     </>
   );

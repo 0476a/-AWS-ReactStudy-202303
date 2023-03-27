@@ -19,3 +19,11 @@ export const ThAndTd = css`
     height: 40px;
     text-align: center;
 `;
+
+export const Input = css`
+    width: 60px;
+    transition: width 1s ease;
+    &:focus {
+        width: 100px;
+    }
+`;

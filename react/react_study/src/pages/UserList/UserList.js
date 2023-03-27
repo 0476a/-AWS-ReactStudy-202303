@@ -58,6 +58,7 @@ const UserList = () =>{
         user.id = userIndex.current++;
 
         setUsers([...users, user]);
+        console.log(users)
     }
 
     const onRemove = (index) => {
@@ -123,10 +124,10 @@ const UserList = () =>{
         <div css={S.Container}>
             <div>
                 {/* // onchange를 줘서 값이 바뀌는 것을 유지 시켜준다. name을 통해 구분을 함. */}
-                <input type="text" onKeyUp={keyupHandler} onChange={inputHandler} placeholder='username' name='username' ref={inputRefs[0]}/> 
-                <input type="text" onKeyUp={keyupHandler} onChange={inputHandler} placeholder='password' name='password' ref={inputRefs[1]}/> 
-                <input type="text" onKeyUp={keyupHandler} onChange={inputHandler} placeholder='name' name='name' ref={inputRefs[2]}/> 
-                <input type="text" onKeyUp={keyupHandler} onChange={inputHandler} placeholder='email' name='email' ref={inputRefs[3]}/> 
+                <input type="text" css={S.Input} onKeyUp={keyupHandler} onChange={inputHandler} placeholder='username' name='username' ref={inputRefs[0]}/> 
+                <input type="text" css={S.Input} onKeyUp={keyupHandler} onChange={inputHandler} placeholder='password' name='password' ref={inputRefs[1]}/> 
+                <input type="text" css={S.Input} onKeyUp={keyupHandler} onChange={inputHandler} placeholder='name' name='name' ref={inputRefs[2]}/> 
+                <input type="text" css={S.Input} onKeyUp={keyupHandler} onChange={inputHandler} placeholder='email' name='email' ref={inputRefs[3]}/> 
                 <button type='button' onClick={addHandler} ref={addButtonRef}>추가</button>
             </div>
             <table css={S.Table}>
