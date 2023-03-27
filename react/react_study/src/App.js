@@ -13,6 +13,7 @@ function Test2() {
   return (<h1>test2</h1>);
 }
 
+// route를 사용하기 위해서 Routes안에 컴포넌트들이 들어가게 됨.
 function App() {
   return (
     <>
