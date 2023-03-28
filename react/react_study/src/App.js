@@ -6,6 +6,7 @@ import UserList from "./pages/UserList/UserList";
 // import TodoList from "./pages/TodoList(PR)/TodoList";
 import { reset } from "./styles/Global/reset";
 import Todo from "./pages/Todo/Todo";
+import NumberCounter from "./pages/NumberCounter/NumberCounter";
 
 function Test1() {
   return (<h1>test1</h1>);
@@ -30,6 +31,7 @@ function App() {
         <Route path="/sample/input/1" Component={InputSample}/>
         <Route path="/users" Component={UserList}/>
         <Route path="/todo" Component={Todo} />
+        <Route path="/number/counter" Component={NumberCounter} />
       </Routes>
     </>
   );
