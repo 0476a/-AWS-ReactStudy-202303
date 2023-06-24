@@ -76,7 +76,7 @@ ___
   - 데이터를 중앙집권화시켜 데이터 사용 및 관리를 편리하게 만든느 라이브러리
 
 ##### 2) 간단한 ToDoList 작성
-  = [📖간단한 TodoList 작성](https://donotthinkjustdo.tistory.com/entry/Stage13-%EC%82%B0%EB%8C%80%ED%8A%B9-%EC%9B%B9%EA%B0%9C%EB%B0%9CRedux-ToList20230328#stage12-1.-route-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%82%AC%EC%9D%B4%EB%93%9C%EB%B0%94-%EC%83%9D%EC%84%B1-1)
+  - [📖간단한 TodoList 작성](https://donotthinkjustdo.tistory.com/entry/Stage13-%EC%82%B0%EB%8C%80%ED%8A%B9-%EC%9B%B9%EA%B0%9C%EB%B0%9CRedux-ToList20230328#stage12-1.-route-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%82%AC%EC%9D%B4%EB%93%9C%EB%B0%94-%EC%83%9D%EC%84%B1-1)
 
 ___
 
